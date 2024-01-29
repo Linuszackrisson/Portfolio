@@ -183,8 +183,8 @@ a {
 .nav-item {}
 
 .nav-link {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: #fff;
 }
 
@@ -238,6 +238,11 @@ a {
         background-color: #f9f9f9;
         padding-left: 3rem;
         padding-right: 3rem;
+        max-width: 100%;
+    }
+
+    .logos {
+        font-size: 4.3rem;
     }
 }
 
@@ -248,7 +253,7 @@ a {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 4rem;
+        top: 3rem;
         flex-direction: column;
         background-color: #0C2D57;
         width: 100%;
@@ -262,7 +267,7 @@ a {
 
     .nav-link {
         color: #fff;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .nav-menu.active {
