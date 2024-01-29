@@ -28,13 +28,15 @@
     position: relative;
     flex-direction: column;
     font-family: 'roboto slab', serif;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .hero-main {
     align-items: center;
     display: flex;
     
-    gap: 10rem;
+    gap: 3rem;
     justify-content: center;
     position: relative;
 }
@@ -95,12 +97,12 @@
 
 .skills {
     align-items: center;
-    bottom: 0;
     color: #767676;
     display: flex;
     font-size: 1.7rem;
-    left: 0;
-    position: absolute;
+    justify-content: flex-start;
+    width: 100%;
+
 }
 
 .skills p {
@@ -230,5 +232,10 @@
     .hero-img {
         height: 20rem;
         width: 24rem;
+    }
+
+    .container {
+        background-color: #f9f9f9;
+        
     }
   }
