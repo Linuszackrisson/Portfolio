@@ -236,8 +236,10 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 0rem;
     height: 25rem;
+    margin-top: 2rem;
+    
     
 }
 
@@ -246,6 +248,8 @@ a {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
     
     
     
@@ -268,7 +272,8 @@ a {
 
 }
 .education-container {
-    padding-top: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     display: flex;
     justify-content: space-between;
         
@@ -286,7 +291,6 @@ a {
 }
 
 .education-text {
-    margin-bottom: 2rem;
     font-family: 'roboto slab', serif;
     width: 45%;
     
@@ -470,5 +474,25 @@ a {
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .education-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            
+        
+    }
+
+    .education-text {
+        width: 100%;
+    }
+
+    .education-title {
+        padding-top: 0rem;
+        padding-bottom: 1rem;
+        
     }
 }
