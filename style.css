@@ -91,7 +91,7 @@ a {
 .hero-main {
     align-items: center;
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
     justify-content: center;
     position: relative;
 }
@@ -125,6 +125,10 @@ a {
     margin-top: 2rem;
 }
 
+.hero-icons i:hover {
+    color: #FC6736;
+}
+
 .hero-icons i {
     color: #2d2e32;
 }
@@ -148,6 +152,10 @@ a {
     flex-direction: row;
     font-size: 5rem;
 }
+
+
+
+
 
 .skills {
     align-items: center;
@@ -194,7 +202,7 @@ a {
 
 .about-content {
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
     justify-content: space-between;
     padding-top: 5rem;
 }
@@ -285,6 +293,10 @@ a {
         padding-top: 2rem;
     }
 
+    .hero-main h1 br {
+        display: none;
+        
+    }
     .hero-icons {
         gap: 1.6rem;
         justify-content: center;
