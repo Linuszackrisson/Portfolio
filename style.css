@@ -149,7 +149,7 @@ a {
 }
 
 .hero-img {
-    background-image: url(linus.jpg);
+    background-image: url(img/linus.jpg);
     background-repeat: no-repeat;
     background-image: fit-content;
     height: 25rem;
@@ -224,7 +224,7 @@ a {
 }
 
 .about-img {
-    background-image: url(linus3.jpg);
+    background-image: url(img/linus3.jpg);
     background-repeat: no-repeat;
     height: 25rem;
     background-size: cover;
