@@ -9,7 +9,6 @@ function mobileMenu() {
 }
 
 
-// when we click on hamburger icon its close 
 
 const navLink = document.querySelectorAll(".nav-link");
 
