@@ -235,21 +235,19 @@ a {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 0rem;
-    height: 25rem;
-    margin-top: 2rem;
+    
+    
     
     
 }
 
 .about h2 {
-    color: #2d2e32;
+    color: #436850;
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.2;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    
     
     
     
@@ -268,9 +266,12 @@ a {
 .education {
     background-color: #f9f9f9;
     
-    
+ 
+
 
 }
+
+
 .education-container {
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -280,15 +281,7 @@ a {
     
 }
 
-.education-title {
-    color: #2d2e32;
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 4rem;
-    
 
-}
 
 .education-text {
     font-family: 'roboto slab', serif;
@@ -297,7 +290,7 @@ a {
 }
 
 .education-text h3 {
-    color: #555;
+    color: #436850;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -404,12 +397,13 @@ a {
         gap: 0rem;
         height: auto;
         text-align: center;
-        padding-top: 2rem;
+        padding-top: 3rem;
+        
     }
 
     .about-content h2 {
         margin-bottom: 1rem;
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
    
     .about-text {
@@ -477,11 +471,12 @@ a {
     }
 
     .education-container {
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-bottom: 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 3rem;
             
         
     }
