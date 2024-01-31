@@ -75,7 +75,7 @@ a {
 }
 
 .nav-link:hover {
-    color: #FC6736;
+    color: #436850;
 }
 
 .home {
@@ -136,7 +136,7 @@ a {
 }
 
 .hero-icons i:hover {
-    color: #FC6736;
+    color: #436850;
 }
 
 .hero-icons i {
@@ -407,6 +407,10 @@ a {
     
 }
 
+.footer-links a:hover {
+    color: #436850;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -447,7 +451,7 @@ a {
         gap: 3rem;
         height: auto;
         text-align: center;
-        padding-top: 2rem;
+        
     }
 
     .hero-main {
@@ -491,8 +495,8 @@ a {
     }
 
     .container {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
         max-width: 100%;
     }
 
