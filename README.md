@@ -7,7 +7,7 @@ Inom det kommande året behöver jag skapa mitt eget portfolio, och projektet p�
 2024-01-31. Färgtemat ändrades till en annat, som gick hem bättre med mitt val av bilder. Responsivtet för mindre enheter är nu ordnat. 
 
 ### Arbete som återstår
-
+Rubrikerna är klara men brödtexterna är väldigt temporära. 
 Städa upp koden, eliminera döda css rader. Finfix med padding och textstorlekar.
 
 
