@@ -8,6 +8,6 @@ Inom det kommande året behöver jag skapa mitt eget portfolio, och projektet p�
 
 ### Arbete som återstår
 
-Städa upp koden, elimnera döda css rader. Finfix med padding och textstorlekar.
+Städa upp koden, eliminera döda css rader. Finfix med padding och textstorlekar.
 
 
