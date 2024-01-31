@@ -8,6 +8,6 @@ Inom det kommande året behöver jag skapa mitt eget portfolio, och projektet p�
 
 ### Arbete som återstår
 Rubrikerna är klara men brödtexterna är väldigt temporära. 
-Städa upp koden, eliminera döda css rader. Finfix med padding och textstorlekar.
+Städa upp koden, eliminera döda css rader. Finfix med padding och textstorlekar. Animationer skall även läggas till för att få en mer levande känsla. 
 
 
