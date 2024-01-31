@@ -189,29 +189,28 @@ a {
     padding-right: 2rem;
 }
 
+.skills i {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+
+}
 .skills i:nth-child(1) {
     color: #E44D26;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 .skills i:nth-child(2) {
     color: #3498DB;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 .skills i:nth-child(3) {
     color: #F39C12;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 .skills i:nth-child(4) {
     color: #61DAFB;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 .skills i:nth-child(5) {
     color: #68A063;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 .about-content {
@@ -250,7 +249,7 @@ a {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     line-height: 1.2;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     
     
     
@@ -424,31 +423,6 @@ a {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media queries */
 @media screen and (max-width: 900px) {
     .content {
@@ -603,11 +577,7 @@ a {
         width: 100%;
     }
 
-    .education-title {
-        padding-top: 0rem;
-        padding-bottom: 1rem;
-        
-    }
+  
 
     .contact-info {
         flex-direction: column;
