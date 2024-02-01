@@ -172,7 +172,6 @@ a {
     background-position: center;
     border-radius: 5%;
     position: relative;
-    z-index: 1;
     animation: floating 3s ease-in-out infinite; /* Justera tiden efter behov */
 }
 
