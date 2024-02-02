@@ -176,13 +176,6 @@ a {
 }
 
 
-.logos {
-    display: flex;
-    gap: 1.5rem;
-    position: relative;
-    flex-direction: row;
-    font-size: 5rem;
-}
 
 
 
@@ -205,34 +198,14 @@ a {
     padding-right: 2rem;
 }
 
-.skills i {
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+.skills img {
+    height: 4rem;
     transition: transform 0.3s ease-in-out;
 }
 
-.skills i:hover {
+
+.skills img:hover {
     transform: scale(1.3); 
-}
-
-
-.skills i:nth-child(1) {
-    color: #E44D26;
-}
-
-.skills i:nth-child(2) {
-    color: #3498DB;
-}
-
-.skills i:nth-child(3) {
-    color: #F39C12;
-}
-
-.skills i:nth-child(4) {
-    color: #61DAFB;
-}
-
-.skills i:nth-child(5) {
-    color: #68A063;
 }
 
 .about-content {
@@ -288,51 +261,12 @@ a {
     font-family: 'roboto slab', serif;
 }
 
-.education {
-    background-color: #f9f9f9;
-    padding-top: 5rem;
-    align-items: center;
-    padding-bottom: 5rem;
- 
 
-
-}
-
-
-.education-container {
-    
-    display: flex;
-    justify-content: space-between;
-        
-    
-}
-
-
-
-.education-text {
-    font-family: 'roboto slab', serif;
-    width: 45%;
-    
-}
-
-.education-text h3 {
-    color: #436850;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    
-}
-
-.education-text p {
-    color: #555;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    
-}
 
 
 .project {
-    background-color: #FFF;
-    padding-top: 5rem;
+    background-color: #f9f9f9;
+     padding-top: 5rem;
     align-items: center;
     padding-bottom: 5rem;
     
@@ -347,7 +281,7 @@ a {
 }
 
 .contact {
-    background-color: #f9f9f9;
+    background-color: #fff;
     padding-top: 5rem;
     align-items: center;
     padding-bottom: 5rem;
@@ -501,9 +435,7 @@ a {
         max-width: 100%;
     }
 
-    .logos {
-        font-size: 3.5rem;
-    }
+    
     
     .about-content {
         align-items: center;
@@ -584,20 +516,7 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .education-container {
-        padding-top: 1rem;
-        padding-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 3rem;
-            
-        
-    }
-
-    .education-text {
-        width: 100%;
-    }
+  
 
   
 
