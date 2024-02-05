@@ -473,6 +473,15 @@ a {
         gap: 2rem;
         text-align: center;
     }
+
+    .skills-icons {
+        
+        gap: 0.5rem; 
+    }
+
+    .skills img {
+        height: 3.2rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
