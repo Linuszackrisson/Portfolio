@@ -92,6 +92,7 @@ a {
     position: relative;
     flex-direction: column;
     font-family: 'roboto slab', serif;
+    
 }
 
 .hero-main {
@@ -352,6 +353,7 @@ a {
         gap: 3rem;
         height: auto;
         text-align: center;
+        padding-top: 8rem;
     }
 
     .hero-main {
@@ -359,7 +361,6 @@ a {
         gap: 0rem;
         height: auto;
         text-align: center;
-        padding-top: 6rem;
     }
 
     .home {
@@ -395,6 +396,7 @@ a {
         padding-left: 2rem;
         padding-right: 2rem;
         max-width: 100%;
+        padding-top: 0;
     }
 
     .about-content {
