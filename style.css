@@ -11,9 +11,10 @@
     max-width: 75rem;
     padding-left: 8rem;
     padding-right: 8rem;
-    padding-top: 8rem;
+    
     
 }
+
 
 /* BURGER MENU */
 li {
@@ -82,9 +83,10 @@ a {
     height: 100vh;
     position: relative;
     width: 100%;
+    
 }
 
-.content {
+.hero-content {
     align-items: center;
     display: flex;
     gap: 5rem;
@@ -92,6 +94,7 @@ a {
     position: relative;
     flex-direction: column;
     font-family: 'roboto slab', serif;
+    
     
 }
 
@@ -101,6 +104,8 @@ a {
     gap: 4rem;
     justify-content: center;
     position: relative;
+    
+    
 }
 
 .hero-text {
@@ -173,6 +178,7 @@ a {
     font-size: 1.7rem;
     justify-content: flex-start;
     width: 100%;
+    
 }
 
 .skills p {
@@ -348,7 +354,7 @@ a {
 
 /* Media queries */
 @media screen and (max-width: 900px) {
-    .content {
+    .hero-content {
         flex-direction: column;
         gap: 3rem;
         height: auto;
