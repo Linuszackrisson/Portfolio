@@ -11,6 +11,8 @@
     max-width: 75rem;
     padding-left: 8rem;
     padding-right: 8rem;
+    padding-top: 8rem;
+    
 }
 
 /* BURGER MENU */
@@ -85,8 +87,7 @@ a {
 .content {
     align-items: center;
     display: flex;
-    gap: 10rem;
-    height: 65rem;
+    gap: 5rem;
     justify-content: center;
     position: relative;
     flex-direction: column;
