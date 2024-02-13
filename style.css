@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+
+    
+
 /* Global styles */
 .container {
     margin: 0 auto;
@@ -94,7 +97,7 @@ a {
     position: relative;
     flex-direction: column;
     font-family: 'roboto slab', serif;
-    margin-top: 16rem;
+    height: 65rem;
     
     
     
