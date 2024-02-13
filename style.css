@@ -76,7 +76,7 @@ a {
 }
 
 .nav-link:hover {
-    color: #436850;
+    color: #0D9276;
 }
 
 .home {
@@ -238,7 +238,7 @@ a {
 }
 
 .about h2 {
-    color: #436850;
+    color: #0D9276;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     line-height: 1.2;
@@ -260,7 +260,7 @@ a {
 }
 
 .project h3 {
-    color: #436850;
+    color: #0D9276;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
@@ -297,7 +297,7 @@ a {
 }
 
 .contact-content h3 {
-    color: #436850;
+    color: #0D9276;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -314,7 +314,7 @@ a {
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
-    color: #436850;
+    color: #0D9276;
     display: flex;
     font-size: 1.5rem;
     height: 3.5rem;
