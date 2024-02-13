@@ -213,9 +213,9 @@ a {
     display: flex;
     gap: 4rem;
     justify-content: space-between;
-    padding-top: 5rem;
     align-items: center;
-    padding-bottom: 5rem
+    padding: 10rem 0;
+    
 }
 
 .about-img {
@@ -252,9 +252,8 @@ a {
 
 .project {
     background-color: #f9f9f9;
-    padding-top: 5rem;
     align-items: center;
-    padding-bottom: 5rem;
+    padding: 10rem 0;
 }
 
 .project h3 {
@@ -267,9 +266,8 @@ a {
 
 .contact {
     background-color: #fff;
-    padding-top: 5rem;
     align-items: center;
-    padding-bottom: 5rem;
+    padding: 6rem 0;
     font-family: 'roboto slab', serif;
 }
 
