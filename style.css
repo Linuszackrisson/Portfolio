@@ -97,7 +97,9 @@ a {
     position: relative;
     flex-direction: column;
     font-family: 'roboto slab', serif;
-    height: 65rem;
+    height: 40rem;
+    margin-top: 4rem;
+    
     
     
     
@@ -180,7 +182,7 @@ a {
 .skills {
     align-items: center;
     display: flex;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     justify-content: flex-start;
     width: 100%;
     
@@ -201,7 +203,7 @@ a {
 
 }
 .skills img {
-    height: 4rem;
+    height: 3.1rem;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -355,7 +357,8 @@ a {
     align-items: center;
 }
 
-/* Media queries */
+
+
 @media screen and (max-width: 900px) {
     .hero-content {
         flex-direction: column;
@@ -363,6 +366,7 @@ a {
         height: auto;
         text-align: center;
         margin-top: 8rem;
+
     }
 
     .hero-main {
@@ -502,3 +506,4 @@ a {
         gap: 2rem;
     }
 }
+
