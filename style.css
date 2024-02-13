@@ -10,7 +10,7 @@
 
 /* Global styles */
 .container {
-    margin: 0 auto;
+    margin: auto;
     max-width: 75rem;
     padding-left: 8rem;
     padding-right: 8rem;
@@ -99,6 +99,7 @@ a {
     font-family: 'roboto slab', serif;
     height: 40rem;
     margin-top: 4rem;
+    
     
     
     
