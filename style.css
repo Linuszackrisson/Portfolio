@@ -82,6 +82,7 @@ a {
     flex-direction: column;
     position: relative;
     width: 100%;
+    height: 100vh;
     
 }
 
@@ -93,8 +94,8 @@ a {
     position: relative;
     flex-direction: column;
     font-family: 'roboto slab', serif;
-    padding-top: 8rem;
-    padding-bottom: 4rem;
+    margin-top: 16rem;
+    
     
     
 }
@@ -360,7 +361,7 @@ a {
         gap: 3rem;
         height: auto;
         text-align: center;
-        padding-top: 8rem;
+        margin-top: 8rem;
     }
 
     .hero-main {
