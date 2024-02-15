@@ -37,3 +37,32 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.about-img');
+    const positionFromTop = element.getBoundingClientRect().top;
+  
+    if (positionFromTop - window.innerHeight < 0) {
+      element.classList.add('animate__animated', 'animate__fadeInLeft');
+    }
+  });
+  
+  window.addEventListener('scroll', () => {
+    const element = document.querySelector('.about-text');
+    const positionFromTop = element.getBoundingClientRect().top;
+  
+    if (positionFromTop - window.innerHeight < 0) {
+      element.classList.add('animate__animated', 'animate__fadeInRight');
+    }
+  });
+  
+// Funktion för att lägga till animate__hinge klassen på .skills-icons
+function addHingeAnimation(event) {
+  const element = event.target;
+  element.classList.add('animate__animated', 'animate__hinge');
+}
+
+// Händelselyssnare för klickhändelsen på .skills-icons
+const skillsIcons = document.querySelectorAll('.skills-icons');
+skillsIcons.forEach(icon => {
+  icon.addEventListener('click', addHingeAnimation);
+});

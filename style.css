@@ -106,6 +106,13 @@ a {
     
 }
 
+.dontclick {
+    position: relative;
+    left: 280px;
+    bottom: 10px;
+    transform: rotate(20deg);
+    
+}
 .hero-main {
     align-items: center;
     display: flex;
