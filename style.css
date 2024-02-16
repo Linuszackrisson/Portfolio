@@ -260,19 +260,116 @@ a {
     font-family: 'roboto slab', serif;
 }
 
+/* Projekt */
 .project {
     background-color: #f9f9f9;
-    align-items: center;
     padding: 10rem 0;
 }
 
-.project h3 {
+
+
+.project-card {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: #FFF;
+    border-radius: 1rem; /* Runda hörn */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.project-description h4 {
     color: #0D9276;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
+    
 }
+
+.project-description p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-family: 'roboto slab', serif;
+    margin-top: 1.5rem;
+    
+}
+
+.tool {
+    background-color: #0D9276;
+    padding: 5px;
+    color: #f9f9f9;
+    
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+
+  }
+  
+
+.project-buttons {
+    display: flex;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+
+}
+
+.preview-button,
+.github-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.preview-button {
+    background-color: #333;
+}
+
+.github-button {
+    background-color: #333;
+}
+
+.preview-button:hover,
+    
+.github-button:hover {
+    background-color: #0D9276;
+}
+
+.project-image {
+    width: 40rem; 
+    border-radius: 0rem 1rem 1rem 0rem;
+    background-image: url(img/Project1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+
 
 .contact {
     background-color: #fff;
@@ -410,7 +507,7 @@ a {
 
     .hero-img {
         height: 20rem;
-        width: 20rem;
+        width: 100%
     }
 
     .container {
@@ -440,7 +537,7 @@ a {
     
     .about-img {
         height: 20rem;
-        width: 20rem;
+        width: 100%;
     }
 }
 
@@ -514,4 +611,20 @@ a {
         gap: 2rem;
     }
 }
-
+@media (max-width: 900px) {
+    .project-card {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+   
+    .project-image {
+        padding-bottom: 1rem;
+        height: 20rem;
+        width: 100%;
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+   
+  }
+  
