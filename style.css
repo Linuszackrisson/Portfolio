@@ -280,7 +280,7 @@ a {
     flex-direction: column;
     padding: 2rem;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .project-description h3 {
@@ -355,13 +355,10 @@ a {
     background-color: #0D9276;
 }
 
-.project-image {
-    width: 40rem; 
+.project-card img {
+    width: 45%; 
     border-radius: 0rem 1rem 1rem 0rem;
-    background-image: url(img/Project1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
     
     
 }
@@ -503,9 +500,10 @@ a {
         padding-right: 0;
     }
 
-    .hero-img {
+    .hero-main img {
         height: 20rem;
-        width: 100%
+        width: 100%;
+        object-fit: cover
     }
 
     .container {
@@ -533,7 +531,7 @@ a {
         width: 100%;
     }
     
-    .about-img {
+    .about-content img {
         height: 20rem;
         width: 100%;
     }
@@ -617,12 +615,13 @@ a {
     }
   
    
-    .project-image {
-        padding-bottom: 1rem;
+    .project-card img {
         height: 20rem;
         width: 100%;
         border-radius: 0rem 0rem 1rem 1rem;
     }
-   
+    .tool {
+        margin-right: 0rem;
+    }
   }
   
