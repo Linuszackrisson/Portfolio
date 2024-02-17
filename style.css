@@ -419,6 +419,7 @@ a {
 		height:auto;
 		text-align:center;
 		padding-top:3rem;
+		padding-bottom: 3rem;
 	}
 	.about-content h2 {
 		margin-bottom:1rem;
@@ -502,5 +503,15 @@ a {
 	}
 	.tool {
 		margin-right: 0rem;
+		margin-left: 0rem;
+	}
+	.project-buttons {
+		gap: 1rem;
+		
+	}
+
+	.project {
+		padding-top:3rem;
+		padding-bottom: 3rem;
 	}
 }
