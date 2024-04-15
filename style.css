@@ -210,7 +210,8 @@ a {
 /* Projekt */
 .project {
 	background-color:#f9f9f9;
-	padding: 10rem 0;
+	padding-top:4rem;
+	padding-bottom: 6rem;
 }
 .project-card {
     display: flex;
@@ -239,6 +240,21 @@ a {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 0.25rem;
     margin-top: 0; 
+}
+
+.project-title {
+	color: #0D9276;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	text-align: center;
+	padding-bottom: 3rem;
+
+
+}
+
+.project-title a {
+	color: #0D9276;
+	text-decoration: underline;
 }
 
 .project-description p {
