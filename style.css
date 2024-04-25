@@ -112,7 +112,7 @@ a {
 }
 .hero-icons {
 	display:flex;
-	gap:3rem;
+	gap:1rem;
 	font-size:3rem;
 	margin-top:2rem;
 }
