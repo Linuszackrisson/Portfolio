@@ -166,11 +166,13 @@ a {
 	
 }
 .skills img {
-	height:3.1rem;
-	transition:transform 0.3s ease-in-out;
+    height: 3.1rem;
+    transition: transform 0.3s ease-in-out;
+	cursor: pointer;
 }
+
 .skills img:hover {
-	transform:scale(1.1);
+    transform: translateY(-15px) 
 }
 .about-content {
 	display:flex;
