@@ -82,6 +82,7 @@ a {
 	font-family:'Mulish',serif;
 	height:40rem;
 	margin-top:4rem;
+	
 }
 
 .hero-main {
@@ -125,15 +126,12 @@ a {
 @keyframes floating {
 	0% {
 		transform:translateY(0);
-		box-shadow:0 5px 15px rgba(0,0,0,0.3);
 	}
 	50% {
 		transform:translateY(-5px);
-		box-shadow:0 10px 20px rgba(0,0,0,0.3);
 	}
 	100% {
 		transform:translateY(0);
-		box-shadow:0 5px 15px rgba(0,0,0,0.3);
 	}
 }
 .hero-main img {
@@ -143,6 +141,8 @@ a {
 	border-radius:0.25rem;
 	position:relative;
 	animation:floating 3s ease-in-out infinite;
+	border: 1px solid rgb(229, 229, 229);
+
 }
 .skills {
 	align-items:center;
@@ -169,6 +169,7 @@ a {
     height: 3.1rem;
     transition: transform 0.3s ease-in-out;
 	cursor: pointer;
+	
 }
 
 .skills img:hover {
@@ -186,6 +187,8 @@ a {
 	object-fit:cover;
 	width:50%;
 	border-radius:0.25rem;
+	border: 1px solid rgb(229, 229, 229);
+
 }
 .about-text {
 	width:50%;
