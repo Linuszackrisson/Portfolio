@@ -217,7 +217,7 @@ a {
     justify-content: space-between;
     background-color: #FFF;
     border-radius:0.25rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgb(229, 229, 229);
     margin-bottom: 3rem;
     align-items: stretch; 
 	min-height: 400px;
