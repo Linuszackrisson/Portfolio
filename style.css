@@ -532,11 +532,11 @@ a {
 	.project-card img {
 		height:20rem;
 		width:100%;
-		border-radius:0rem 0rem 0.25rem 0.25rem;
+		border-radius:0.25rem 0.25rem 0rem 0rem;
 	}
 	.project-card:nth-child(even) img {
-		border-radius: 0rem 0rem 0.25rem 0.25rem;
-		order: 2;
+		border-radius: 0.25rem 0.25rem 0rem 0rem;
+		order: -1;
 	}
 	
 	.tool {
