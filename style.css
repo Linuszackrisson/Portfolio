@@ -249,6 +249,8 @@ a {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.4rem;
 	text-align: center;
+	padding-left:8rem;
+	padding-right: 8rem;
 	padding-bottom: 3rem;
 
 
@@ -309,7 +311,7 @@ a {
 }
 .project-card img {
 	width:45%;
-	border-radius:0.25rem 0rem 0rem 0.25rem;
+	border-radius:0rem 0.25rem 0.25rem 0rem;
 	object-fit:cover;
 	
 	
@@ -317,7 +319,7 @@ a {
 
 
 .project-card:nth-child(even) img {
-    border-radius: 0rem 0.25rem 0.25rem 0rem;
+    border-radius: 0.25rem 0rem 0rem 0.25rem;
 }
 
 
