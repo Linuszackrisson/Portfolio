@@ -35,9 +35,30 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     });
-  });
 
-  window.addEventListener('scroll', () => {
+    const sections = document.querySelectorAll('.section');
+
+    const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target); 
+            }
+        });
+    }, options);
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
+
+window.addEventListener('scroll', () => {
     const element = document.querySelector('.about-img');
     const positionFromTop = element.getBoundingClientRect().top;
   
@@ -55,13 +76,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-// Funktion för att lägga till animate__hinge klassen på .skills-icons
 function addHingeAnimation(event) {
   const element = event.target;
   element.classList.add('animate__animated', 'animate__hinge');
 }
 
-// Händelselyssnare för klickhändelsen på .skills-icons
 const skillsIcons = document.querySelectorAll('.skills-icons');
 skillsIcons.forEach(icon => {
   icon.addEventListener('click', addHingeAnimation);
