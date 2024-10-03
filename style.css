@@ -163,7 +163,7 @@ a {
 	display:flex;
 	gap:0.5rem;
 	justify-content:center;
-	
+	flex-wrap: wrap; /* Lägg till denna rad för att tillåta radbrytning */
 }
 .skills img {
     height: 3.1rem;
@@ -514,6 +514,7 @@ a {
 	}
 	.skills-icons {
 		gap:0.5rem;
+		flex-wrap: wrap; /* Lägg till denna rad för att tillåta radbrytning */
 	}
 	.skills img {
 		height:3.2rem;
