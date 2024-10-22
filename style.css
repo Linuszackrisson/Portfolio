@@ -272,12 +272,11 @@ a {
 }
 .tool {
 	background-color:#0D9276;
-	padding:0.3rem;
+	padding:0.3rem 0.5rem;
 	color:#f9f9f9;
-	margin-left:2px;
-	margin-right:0.55rem;
-	font-size:1rem;
-	
+	margin:0.2rem;
+	font-size:0.9rem;
+	display:inline-block;
 }
 .project-buttons {
 	display:flex;
@@ -543,8 +542,11 @@ a {
 	
 	.tool {
 		margin-right: 0rem;
-		margin-left: 0rem;
+		margin-left: 0rem;	
+		padding: 0.2rem;
+		
 	}
+
 
 	.project-buttons {
 		gap: 1rem;
@@ -559,8 +561,19 @@ a {
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
 	}
+	.project-info {
+		padding: 1.5rem;
+	}
+	.project-description p {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+	}
+	.tool {
+		margin: 0.1rem;
+		padding: 0.2rem 0.4rem;
+	}
 }
-
 .section {
     opacity: 0; 
     transform: translateY(20px); 
